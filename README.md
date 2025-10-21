@@ -1,3 +1,3 @@
-# Tere!
+# Ajuti - Kopli Couture
 
-Siin repositooriumis asub Tomi, Arphine ja Heleri veebilehe projekt ja selle kirjeldus.
+Veebileht Tallinnas asuvale vintage riidepoele ja kokteilibaarile **Kopli Couture**.

@@ -44,28 +44,10 @@ Your project repository **must** include a comprehensive wiki or a detailed `REA
 
 Your documentation must contain the following sections:
 
-*   **Project Purpose:** The website serves as the homepage for Kopli Couture, a unique venue in Tallinn that operates as a vintage clothing shop inspired by ex-USSR aesthetics during the day and transforms into a cocktail bar by night. It acts as a hub for local designers, eclectic artists, and vintage enthusiasts.
-
-*   **Team Members:**
-    *   Heleri Tammemägi
-    *   Arphine Pogosjan
-    *   Tom Kristian Abel
-
-*   **Division of Labor:**
-    *   **Heleri Tammemägi**:
-        *   **HTML**: Populate and structure the `index.html` file with content for the Home page.
-        *   **CSS**: Add shared theme styles (e.g., fonts, colors, background) to the `styles/styles.css` file.
-        *   **Documentation**: Write the "Project Purpose" section in the `README.md`.
-    *   **Arphine Pogosjan**:
-        *   **HTML**: Populate and structure the `about.html` and `events-contact.html` files.
-        *   **CSS**: Add styles for the About and Events/Contact pages to `styles/styles.css`.
-        *   **Content**: Integrate images into the static gallery and other pages.
-    *   **Tom Kristian Abel**:
-        *   **File Structure**: Create the initial boilerplate files: `index.html`, `about.html`, `events-contact.html`, `styles/styles.css`, and `scripts/main.js`.
-        *   **JavaScript**: Implement the theme toggle and form validation in `scripts/main.js`. Provide mentorship on JS concepts.
-        *   **Git & Code Review**: Define the branching strategy, review all pull requests, and manage merges to `main`.
-        *   **Deployment**: Handle the final validation and deploy the website to `kodu.ut.ee`.
-        *   **Documentation**: Oversee the `README.md` to ensure it is complete and accurate.
+* **Project Purpose:** A clear description of your website. What is its topic? What is its primary goal?
+* **Team Members:** A list of all members of the project team.
+* **Division of Labor:** A clear and specific breakdown of responsibilities. Who was responsible for which parts of the project?
+  * *Example: "Jane Doe: HTML structure for the homepage & about page. John Smith: All CSS styling and the JavaScript for the interactive photo gallery."*
 
 ---
 

@@ -6,7 +6,7 @@ Welcome! This document outlines the requirements for your collaborative group pr
 
 ## 🎯 1. Project Overview
 
-This is a **collaborative group project**. Your team will build a simple website for **Kopi Couture**, a unique venue that is a vintage ex-USSR vibe-inducing clothes shop by day and a cocktail bar by night. The site should capture this dual retro/modern identity and serve as a hub for local artists and vintage fanatics.
+This is a **collaborative group project**. Your team will build a simple website for **Kopli Couture**, a unique venue that is a vintage ex-USSR vibe-inducing clothes shop by day and a cocktail bar by night. The site should capture this dual retro/modern identity and serve as a hub for local artists and vintage fanatics.
 
 The website will consist of a **Home Page**, an **About Page**, and an **Events & Contact Page**.
 

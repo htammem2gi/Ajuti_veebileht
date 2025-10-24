@@ -66,23 +66,44 @@ Tasks are simplified to align with the core grading criteria of `REQUIREMENTS.md
     - Test the site for functionality and browser compatibility.
     - Deploy the final project to `kodu.ut.ee`.
 
-## 👷 Division of Labor (Revised)
+## 👷 Task Groups (Unassigned)
 
-This revised allocation is designed for simplicity and balance. Tom will set up the initial file structure, allowing Heleri and Arphine to focus on building out specific pages. This ensures consistency and leverages the experienced member for setup and guidance.
+Tasks are organized into logical groups that can be assigned to team members later. Each group focuses on a specific aspect of the project to ensure balanced workload and clear responsibilities.
 
-- **Heleri Tammemägi**:
-  - **HTML**: Populate and structure the `index.html` file with content for the Home page.
-  - **CSS**: Add shared theme styles (e.g., fonts, colors, background) to the `styles/styles.css` file.
-  - **Documentation**: Write the "Project Purpose" section in the `README.md`.
+### Group 1: Project Setup and Infrastructure
+- Define a simple branching strategy (`main` and `feature` branches).
+- Create the basic file structure: `index.html`, `about.html`, `events-contact.html`, a single `styles/styles.css`, and `scripts/main.js`.
+- Set up initial boilerplate files with basic HTML structure.
 
-- **Arphine Pogosjan**:
-  - **HTML**: Populate and structure the `about.html` and `events-contact.html` files.
-  - **CSS**: Add styles for the About and Events/Contact pages to `styles/styles.css`.
-  - **Content**: Integrate images into the static gallery and other pages.
+### Group 2: HTML Development
+- Build semantic HTML for the Home page (`index.html`).
+- Build semantic HTML for the About page (`about.html`).
+- Build semantic HTML for the Events & Contact page (`events-contact.html`).
 
-- **Tom Kristian Abel**:
-  - **File Structure**: Create the initial boilerplate files: `index.html`, `about.html`, `events-contact.html`, `styles/styles.css`, and `scripts/main.js`.
-  - **JavaScript**: Implement the theme toggle and form validation in `scripts/main.js`. Provide mentorship on JS concepts.
-  - **Git & Code Review**: Define the branching strategy, review all pull requests, and manage merges to `main`.
-  - **Deployment**: Handle the final validation and deploy the website to `kodu.ut.ee`.
-  - **Documentation**: Oversee the `README.md` to ensure it is complete and accurate.
+### Group 3: CSS Styling
+- Create a single, shared `styles.css` file for the vintage theme (colors, fonts, layout).
+- Add styles for the About and Events/Contact pages to `styles/styles.css`.
+- Ensure styles are consistent across all pages and the site is responsive.
+
+### Group 4: JavaScript Interactivity
+- Implement a day/night theme toggle on the Home page (e.g., changing a class on the `<body>`).
+- Add basic JavaScript validation to the contact form.
+- Ensure all JS code is commented in Estonian.
+
+### Group 5: Content and Media Integration
+- Write and add all website text content.
+- Integrate images from the `media/` folder into the pages.
+- Create the static gallery of past events.
+
+### Group 6: Documentation
+- Fill out the `README.md` with the project purpose, team members, and task assignments.
+- Write the "Project Purpose" section in the `README.md`.
+- Ensure documentation is complete and accurate.
+
+### Group 7: Validation, Testing, and Deployment
+- Validate all HTML and CSS using the W3C validator.
+- Test the site for functionality and browser compatibility.
+- Deploy the final project to `kodu.ut.ee`.
+- Review all pull requests and manage merges to `main`.
+
+These task groups can be assigned to team members based on their strengths and availability, ensuring a balanced distribution of work while maintaining project cohesion.

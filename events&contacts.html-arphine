@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events & Contact - Kopli Couture</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <div class="header">
+    <h1>Kopli Couture</h1>
+    </div>
+    <main class="container">
+        <section>
+            <h2>Tulevased üritused</h2>
+            <div>
+                <p>21. november - Lifebest danceparty for sexyclothes people!, DJ-d: Henrik Ehte, Jamz, Mr. Captainman, Yo</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>Kontakt</h2>
+            <h3>Email</h3>
+            <p>kopli.couture@gmail.com</p>
+            <h3>Telefon</h3>
+            <p>+372 5530811</p>
+        </section>
+
+        <section>
+            <p>Jälgi meid: 
+                <a href="https://www.facebook.com/KopliCouture/" target="_blank">Facebook</a> |
+                <a href="https://www.instagram.com/koplicouture/" target="_blank">Instagram</a>
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Kopli Couture</p>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+</body>
+</html>

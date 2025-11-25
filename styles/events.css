@@ -1,0 +1,226 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background: #f5f4fa;
+}
+
+/* HEADER */
+.main-header {
+    width: 100%;
+    padding: 20px 40px;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 100;
+}
+
+.nav-left {
+    display: flex;
+    gap: 25px;
+}
+
+.nav-left a {
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+    font-size: 16px;
+    position: relative;
+}
+
+.nav-left a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    width: 0%;
+    height: 2px;
+    background: black;
+    transition: width 0.3s;
+}
+
+.nav-left a:hover::after {
+    width: 100%;
+}
+
+.logo {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-weight: 700;
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+}
+
+.logo:hover {
+    transform: translateX(-50%) scale(1.08);
+}
+
+.nav-right {
+    display: flex;
+    gap: 18px;
+}
+
+.nav-right img {
+    width: 22px;
+}
+
+
+/* HERO SECTION */
+.hero-events {
+    position: relative;
+    width: 100%;
+    height: 90vh;
+    overflow: hidden;
+}
+
+.hero-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero-title {
+    position: absolute;
+    top: 60px;       
+    left: 60px;      
+    color: white;
+    font-family: 'Anton', sans-serif;
+    font-size: 120px;
+    line-height: 1.05;
+    text-shadow: 0 5px 20px rgba(0,0,0,0.4);
+}
+
+
+
+/* INFO-KAST */
+.event-info {
+    width: 100%;
+    background: #eeeef4;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.event-item {
+    flex: 1;
+    max-width: 350px;
+}
+
+.event-item strong {
+    font-size: 26px;
+    font-weight: 700;
+    display: block;
+    margin-bottom: 12px;
+}
+
+.event-item p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* GALERII */
+.event-gallery {
+    margin-top: 50px;
+    overflow: hidden;
+}
+
+.gallery-track {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;   /* ⬅⬅⬅ TÄHTIS – viib pildid keskele */
+    gap: 40px;
+    padding: 30px 40px;
+    overflow: hidden;
+}
+
+/* Pildid */
+.event-gallery img {
+    width: 550px;
+    height: auto;
+    flex-shrink: 0;
+    transition: transform 0.35s ease;
+    cursor: pointer;
+}
+
+/* Hover zoom */
+.event-gallery img:hover {
+    transform: scale(1.1);
+    z-index: 5;
+}
+
+
+/* BOTTOM TEXT */
+.event-bottom-text {
+    max-width: 1200px;     /* kitsendab teksti, et ta ei oleks liiga lai */
+    margin: 0 auto;       /* toob ploki täpselt keskele */
+    text-align: center;   /* joondab teksti keskele */
+    padding: 60px 20px;   /* annab hingamisruumi */
+}
+
+.event-bottom-text h2 {
+    font-family: 'Anton', sans-serif;
+    font-size: 70px;
+    margin-bottom: 30px;
+}
+
+.event-bottom-text p {
+    font-size: 22px;
+    line-height: 1.7;
+}
+
+
+/* UNIVERSAL FOOTER INFO BOX */
+
+.footer-info {
+    width: 100%;
+    background: #181e2f;
+    color: #e9f3ff;
+    padding: 60px 0;
+}
+
+.footer-info-inner {
+    max-width: 1200px;
+    margin: 0 auto; /* keskendab kogu sisu */
+    padding: 0 40px; /* lisame väikse paddingu, et tekst ei kleebiks serva */
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 80px;
+}
+
+.info-box {
+    flex: 1;
+    min-width: 200px;
+}
+
+.info-box strong {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.info-box p {
+    font-size: 18px;
+    line-height: 1.7;
+    margin: 0;
+}
+
+
+
+
+

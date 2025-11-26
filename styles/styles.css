@@ -5,9 +5,7 @@
     box-sizing: border-box;
 }
 
-/* BODY */
 body {
-    background: #f4ecf6;
     font-family: 'Inter', sans-serif;
 }
 
@@ -15,14 +13,14 @@ body {
 .main-header {
     width: 100%;
     padding: 20px 40px;
-    background: #FFFFFF;
+    background: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: relative;
 }
 
-.nav-left {
+.nav-left, .nav-right {
     display: flex;
     gap: 25px;
 }
@@ -32,10 +30,9 @@ body {
     font-weight: 600;
     color: black;
     font-size: 16px;
-    position: relative; /* ← VAJALIK hover underline jaoks */
+    position: relative;
 }
 
-/* Underline effect ainult linkide alla */
 .nav-left a::after {
     content: "";
     position: absolute;
@@ -58,11 +55,9 @@ body {
     font-weight: 700;
     font-size: 18px;
     letter-spacing: 1px;
-    white-space: nowrap;
     text-decoration: none;
     color: black;
 
-    /* hover animation */
     transition: color 0.3s ease, transform 0.3s ease;
 }
 
@@ -70,102 +65,65 @@ body {
     transform: translateX(-50%) scale(1.08); /* pehme zoom */
 }
 
-.nav-right {
-    display: flex;
-    gap: 18px;
-}
-
 .nav-right img {
     width: 22px;
-    height: 22px;
 }
 
-/* HERO */
+/* HERO AREA */
 .hero {
-    text-align: center;
-    margin-top: 20px;
-    padding-bottom: 40px;
-}
-
-.big-title {
-    font-family: 'Anton', sans-serif;
-    font-size: 270px;
-    font-weight: 400;
-    letter-spacing: 3px;
-    white-space: nowrap;
-    line-height: 1;
-}
-
-/* PHOTO + TEXT GRID SECTION */
-.photo-text-grid {
+    position: relative;
     width: 100%;
-    max-width: none;
-    padding: 0 60px;
-    margin: 40px 0;
-    display: flex;
-    flex-direction: column;
-    gap: 140px;
 }
 
-.photo-text-grid .row {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 60px;
-    align-items: center;
-}
-
-.photo-text-grid img {
+.hero-img {
     width: 100%;
     height: auto;
     display: block;
-    border-radius: 0; 
-    box-shadow: 0 8px 25px rgba(0,0,0,0.2);
 }
 
-.text-block h3 {
-    font-size: 28px;
-    margin-bottom: 15px;
-    font-weight: 700;
+.hero-title {
+    position: absolute;
+    top: 18%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: 'Anton', sans-serif;
+    font-size: 240px;
+    letter-spacing: 4px;
+    text-align: center;
+    text-shadow: 0 0 30px rgba(0,0,0,1);
+
+    max-width: none;
+    white-space: nowrap;
 }
 
-.text-block p {
-    font-size: 18px;
-    line-height: 1.7;
-    margin-bottom: 6px;
+/* HERO QUOTE */
+.hero-quote {
+    position: absolute;
+    top: 90%; /* nihuta üles-alla siit */
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 32px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    text-shadow: 0 0 12px rgba(0,0,0,0.55);
+    width: 90%;
+    max-width: 900px;
 }
 
-.footer-info {
+.quote-bar {
     width: 100%;
-    background: #181e2f;
-    color: #e9f3ff;
-    padding: 60px 0;
+    background: #0F0F0F;
+    padding: 75px 0;
+    text-align: center;
 }
 
-.footer-info-inner {
-    max-width: 1200px;
-    margin: 0 auto; /* keskendab kogu sisu */
-    padding: 0 40px; /* lisame väikse paddingu, et tekst ei kleebiks serva */
-    
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    gap: 80px;
-}
-
-.info-box {
-    flex: 1;
-    min-width: 200px;
-}
-
-.info-box strong {
-    font-size: 20px;
-    font-weight: 700;
-    margin-bottom: 10px;
-    display: block;
-}
-
-.info-box p {
-    font-size: 18px;
-    line-height: 1.7;
+.quote-bar p {
+    color: white;
+    font-size: 46px;
+    font-weight: 300;
     margin: 0;
+    font-family: 'Anton', sans-serif;
 }

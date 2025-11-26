@@ -1,4 +1,3 @@
-/* RESET */
 * {
     margin: 0;
     padding: 0;
@@ -74,8 +73,7 @@ body {
     width: 22px;
 }
 
-
-/* HERO SECTION */
+/* HERO */
 .hero-events {
     position: relative;
     width: 100%;
@@ -100,9 +98,6 @@ body {
     text-shadow: 0 5px 20px rgba(0,0,0,0.4);
 }
 
-
-
-/* INFO-KAST */
 .event-info {
     width: 100%;
     background: #eeeef4;
@@ -131,7 +126,7 @@ body {
     margin: 0;
 }
 
-/* GALERII */
+
 .event-gallery {
     margin-top: 50px;
     overflow: hidden;
@@ -140,13 +135,13 @@ body {
 .gallery-track {
     display: flex;
     flex-wrap: nowrap;
-    justify-content: center;   /* ⬅⬅⬅ TÄHTIS – viib pildid keskele */
+    justify-content: center;   
     gap: 40px;
     padding: 30px 40px;
     overflow: hidden;
 }
 
-/* Pildid */
+
 .event-gallery img {
     width: 550px;
     height: auto;
@@ -155,19 +150,17 @@ body {
     cursor: pointer;
 }
 
-/* Hover zoom */
 .event-gallery img:hover {
     transform: scale(1.1);
     z-index: 5;
 }
 
 
-/* BOTTOM TEXT */
 .event-bottom-text {
-    max-width: 1200px;     /* kitsendab teksti, et ta ei oleks liiga lai */
-    margin: 0 auto;       /* toob ploki täpselt keskele */
-    text-align: center;   /* joondab teksti keskele */
-    padding: 60px 20px;   /* annab hingamisruumi */
+    max-width: 1200px;     
+    margin: 0 auto;      
+    text-align: center;   
+    padding: 60px 20px;   /
 }
 
 .event-bottom-text h2 {
@@ -181,9 +174,7 @@ body {
     line-height: 1.7;
 }
 
-
-/* UNIVERSAL FOOTER INFO BOX */
-
+/* FOOTER */
 .footer-info {
     width: 100%;
     background: #181e2f;
@@ -193,11 +184,11 @@ body {
 
 .footer-info-inner {
     max-width: 1200px;
-    margin: 0 auto; /* keskendab kogu sisu */
-    padding: 0 40px; /* lisame väikse paddingu, et tekst ei kleebiks serva */
+    margin: 0 auto; 
+    padding: 0 40px; /
     
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: flex-start;
     gap: 80px;
 }

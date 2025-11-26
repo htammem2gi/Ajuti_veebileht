@@ -10,7 +10,7 @@ body {
     background: #f0fafc;
 }
 
-/* HEADER (same as home) */
+/* HEADER */
 .main-header {
     width: 100%;
     padding: 20px 40px;
@@ -59,13 +59,11 @@ body {
     white-space: nowrap;
     text-decoration: none;
     color: black;
-
-    /* hover animation */
     transition: color 0.3s ease, transform 0.3s ease;
 }
 
 .logo:hover {    
-    transform: translateX(-50%) scale(1.08); /* pehme zoom */
+    transform: translateX(-50%) scale(1.08); 
 }
 
 .nav-right {
@@ -80,7 +78,7 @@ body {
 /* ABOUT LAYOUT */
 .about-container {
     display: grid;
-    grid-template-columns: auto 1fr; /* vasak veerg mahub vaid nii suureks kui pilt lubab */
+    grid-template-columns: auto 1fr; 
     align-items: flex-start;
     gap: 50px;
     margin: 0;
@@ -88,7 +86,7 @@ body {
 }
 
 .about-image {
-    max-width: 550px;
+    max-width: 850px;
 }
 .about-image img {
     width: 100%;
@@ -97,9 +95,9 @@ body {
     display: block;
 }
 
-/* TEXT BLOCK */
+
 .about-text {
-    margin-top: 40px;      
+    margin-top: 50px;      
     max-width: 90%;        
 }
 
@@ -127,7 +125,10 @@ body {
 .about-desc {
     font-size: 20px;
     line-height: 1.7;
+    max-width: 620px;     /* ← piira teksti laius siit! */
+    text-align: left;     /* hoiab normaalse joondamise */
 }
+
 
 .footer-info {
     width: 100%;

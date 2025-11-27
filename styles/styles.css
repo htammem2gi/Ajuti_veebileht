@@ -62,7 +62,7 @@ body {
 }
 
 .logo:hover {    
-    transform: translateX(-50%) scale(1.08); /* pehme zoom */
+    transform: translateX(-50%) scale(1.08); 
 }
 
 .nav-right img {
@@ -97,33 +97,85 @@ body {
     white-space: nowrap;
 }
 
-/* HERO QUOTE */
-.hero-quote {
-    position: absolute;
-    top: 90%; /* nihuta üles-alla siit */
-    left: 50%;
-    transform: translateX(-50%);
-    color: white;
-    font-size: 32px;
-    font-weight: 400;
-    font-family: 'Inter', sans-serif;
+/* INTRO */
+.intro-section {
     text-align: center;
-    text-shadow: 0 0 12px rgba(0,0,0,0.55);
-    width: 90%;
-    max-width: 900px;
+    padding: 120px 40px;
+    background: #f7f7fb;
 }
 
-.quote-bar {
-    width: 100%;
-    background: #0F0F0F;
-    padding: 75px 0;
-    text-align: center;
-}
-
-.quote-bar p {
-    color: white;
-    font-size: 46px;
-    font-weight: 300;
-    margin: 0;
+.intro-section h2 {
     font-family: 'Anton', sans-serif;
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.intro-section p {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 22px;
+    line-height: 1.7;
+    color: #333;
+}
+
+.intro-buttons {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.intro-btn {
+    padding: 14px 28px;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+    background: #0F0F0F;
+    border-radius: 6px;
+    transition: 0.3s ease;
+}
+
+.intro-btn:hover {
+    transform: scale(1.05);
+}
+
+.intro-btn.dark {
+    background: #0F0F0F;
+}
+
+
+/* FOOTER */
+.footer-info {
+    width: 100%;
+    background: #181e2f;
+    color: #e9f3ff;
+    padding: 40px 0;
+}
+
+.footer-info-inner {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;   
+    align-items: flex-start;
+    gap: 400px;               
+    text-align: center;        
+}
+
+.footer-box {
+    width: 260px;              
+}
+
+.footer-box strong {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 12px;
+    display: block;
+}
+
+.footer-box p {
+    font-size: 28px;
+    line-height: 1.7;
+    margin: 0;
 }

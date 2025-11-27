@@ -160,7 +160,7 @@ body {
     max-width: 1200px;     
     margin: 0 auto;      
     text-align: center;   
-    padding: 60px 20px;   /
+    padding: 60px 20px;   
 }
 
 .event-bottom-text h2 {
@@ -179,37 +179,36 @@ body {
     width: 100%;
     background: #181e2f;
     color: #e9f3ff;
-    padding: 60px 0;
+    padding: 40px 0;
 }
 
 .footer-info-inner {
-    max-width: 1200px;
-    margin: 0 auto; 
-    padding: 0 40px; /
-    
+    max-width: 1400px;
+    margin: 0 auto;
     display: flex;
-    justify-content: center;
+    justify-content: center;   /* kõik kastid tõesti keskele */
     align-items: flex-start;
-    gap: 80px;
+    gap: 400px;                /* ühtlane vahe kolme kasti vahel */
+    text-align: center;        /* tekst VISUAALSELT keskele */
 }
 
-.info-box {
-    flex: 1;
-    min-width: 200px;
+.footer-box {
+    width: 260px;              /* iga kast täpselt sama lai */
 }
 
-.info-box strong {
-    font-size: 20px;
+.footer-box strong {
+    font-size: 32px;
     font-weight: 700;
-    margin-bottom: 10px;
+    margin-bottom: 12px;
     display: block;
 }
 
-.info-box p {
-    font-size: 18px;
+.footer-box p {
+    font-size: 28px;
     line-height: 1.7;
     margin: 0;
 }
+
 
 
 

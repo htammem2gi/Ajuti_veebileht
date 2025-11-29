@@ -7,7 +7,8 @@
 
 body {
     font-family: 'Inter', sans-serif;
-    background: #f0fafc;
+    background-color: white;
+    background: white;
 }
 
 /* HEADER */
@@ -75,7 +76,6 @@ body {
     width: 22px;
 }
 
-/* ABOUT LAYOUT */
 .about-container {
     display: grid;
     grid-template-columns: auto 1fr; 
@@ -83,6 +83,7 @@ body {
     gap: 50px;
     margin: 0;
     padding: 0;
+    background-color: white;
 }
 
 .about-image {
@@ -132,8 +133,7 @@ body {
 /* FOOTER */ 
 .footer-info {
     width: 100%;
-    background: #181e2f;
-    color: #e9f3ff;
+    background-color: lightgray;
     padding: 40px 0;
 }
 
@@ -164,6 +164,25 @@ body {
     margin: 0;
 }
 
+.theme-toggle {
+    background: none;
+    border: none;
+    font-size: 19px;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -4px;
+  max-height: 32px;
+}
 
+.theme-toggle:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+    transform: scale(1.1);
+}
 
-
+.theme-toggle:active {
+    transform: scale(0.95);
+}

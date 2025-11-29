@@ -6,6 +6,8 @@ Veebileht Tallinnas asuvale *vintage*-riidepoele ja kokteilibaarile **Kopli Cout
 
 Käesolev veebileht on ametlik veebiportaal Tallinnas asuvale *vintage*-riidepoele ja kokteilibaarile **Kopli Couture**.
 
+https://kodu.ut.ee/~tomabel
+
 ### Sisu ja eesmärk
 
 Veebileht tutvustab Kopli Couture'i kui unikaalset kohta, mis ühendab endas:

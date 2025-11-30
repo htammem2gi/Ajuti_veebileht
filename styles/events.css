@@ -186,14 +186,14 @@ body {
     max-width: 1400px;
     margin: 0 auto;
     display: flex;
-    justify-content: center;   /* kõik kastid tõesti keskele */
+    justify-content: center;   
     align-items: flex-start;
-    gap: 400px;                /* ühtlane vahe kolme kasti vahel */
-    text-align: center;        /* tekst VISUAALSELT keskele */
+    gap: 400px;                
+    text-align: center;        
 }
 
 .footer-box {
-    width: 260px;              /* iga kast täpselt sama lai */
+    width: 260px;              
 }
 
 .footer-box strong {

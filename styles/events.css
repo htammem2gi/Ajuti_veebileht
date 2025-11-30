@@ -102,7 +102,7 @@ body {
 
 .event-info {
     width: 100%;
-    background: white;
+    background: #eeeef4;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -211,10 +211,6 @@ body {
     line-height: 1.7;
     margin: 0;
 }
-
-
-
-
 
 .theme-toggle {
     background: none;

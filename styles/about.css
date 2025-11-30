@@ -76,61 +76,67 @@ body {
     width: 22px;
 }
 
-.about-container {
-    display: grid;
-    grid-template-columns: auto 1fr; 
-    align-items: flex-start;
-    gap: 50px;
-    margin: 0;
-    padding: 0;
-    background-color: white;
-}
-
-.about-image {
-    max-width: 850px;
-}
-.about-image img {
+.about-top-gallery {
     width: 100%;
-    height: auto;
-    object-fit: contain;
-    display: block;
+    display: flex;
+    position: relative; /* et pealkiri saaks siin sees absoluutne olla */
 }
 
-
-.about-text {
-    margin-top: 50px;      
-    max-width: 90%;        
+.about-top-gallery img {
+    width: 25%;
+    height: 520px;
+    object-fit: cover;
 }
 
-/* Title + Tag */
+.about-quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   
+}
+
 .about-tag {
-    font-size: 26px;
-    margin-bottom: 12px;
+    font-size: 28px;
+    margin-bottom: 10px;
 }
 
 .about-title {
     font-family: 'Anton', sans-serif;
-    font-size: 100px;      
-    line-height: 1.1;
-    margin-bottom: 30px;
+    font-size: 110px;
+    line-height: 1;
 }
 
-.about-box {
-    background: black;
-    color: white;
-    padding: 6px 14px;
-    display: inline-block;
-}
-
-/* Paragraph */
 .about-desc {
+    margin: 80px auto 40px;
     font-size: 20px;
     line-height: 1.7;
-    max-width: 620px;     
-    text-align: left;     
+    max-width: 1200px;
+    text-align: center;
 }
 
-/* FOOTER */ 
+.about-intro {
+    padding: 60px 40px;
+    max-width: none;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.about-intro h2 {
+    font-family: 'Anton', sans-serif;
+    font-size: 56px;
+    margin-bottom: 24px;
+    max-width: none;
+}
+
+.about-intro p {
+    font-size: 20px;
+    line-height: 1.7;
+    margin-bottom: 14px;
+    max-width: 900px;
+    margin-left: auto;   
+    margin-right: auto;  
+}
+
+
 .footer-info {
     width: 100%;
     background-color: lightgray;
@@ -175,7 +181,7 @@ body {
     align-items: center;
     justify-content: center;
     margin-top: -4px;
-  max-height: 32px;
+    max-height: 32px;
 }
 
 .theme-toggle:hover {

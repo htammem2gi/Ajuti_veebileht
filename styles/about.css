@@ -8,7 +8,6 @@
 body {
     font-family: 'Inter', sans-serif;
     background-color: white;
-    background: white;
 }
 
 /* HEADER */
@@ -79,7 +78,7 @@ body {
 .about-top-gallery {
     width: 100%;
     display: flex;
-    position: relative; /* et pealkiri saaks siin sees absoluutne olla */
+    position: relative; 
 }
 
 .about-top-gallery img {
@@ -101,7 +100,7 @@ body {
 
 .about-title {
     font-family: 'Anton', sans-serif;
-    font-size: 110px;
+    font-size: 120px;
     line-height: 1;
 }
 
@@ -130,12 +129,95 @@ body {
 .about-intro p {
     font-size: 20px;
     line-height: 1.7;
-    margin-bottom: 14px;
+    margin-bottom: 0px;
     max-width: 900px;
     margin-left: auto;   
     margin-right: auto;  
 }
 
+.double-boxes {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.info-box-left,
+.info-box-right {
+    flex: 1;
+    background: #f3f3f3;
+    border-radius: 18px;
+    padding: 40px 50px;
+    text-align: center;
+    transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.info-box-left:hover,
+.info-box-right:hover {
+    background: #eaeaea;
+    transform: translateY(-6px);
+}
+
+.double-boxes h3 {
+    font-family: 'Anton', sans-serif;
+    font-size: 40px;
+    margin-bottom: 12px;
+}
+
+.double-boxes p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 22px;
+}
+
+.small-btn {
+    padding: 12px 32px;
+    background: black;
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    display: inline-block;     
+    transition: transform 0.25s ease;
+}
+
+.small-btn:hover {
+    transform: scale(1.05);
+}
+
+.social-links {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    align-items: center;
+}
+
+.social-links a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 16px;
+    background: white;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    font-weight: 600;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.social-links a:hover {
+    background: #ddd;
+    transform: translateY(-3px);
+}
+
+.social-links img {
+    width: 26px;
+}
 
 .footer-info {
     width: 100%;

@@ -161,11 +161,6 @@ body {
     transform: scale(1.05);
 }
 
-.intro-btn.dark {
-    background: #0F0F0F;
-}
-
-
 /* FOOTER */
 .footer-info {
     width: 100%;

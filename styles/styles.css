@@ -109,7 +109,7 @@ body {
     transform: translate(-50%, -50%);
     color: white;
     font-family: 'Anton', sans-serif;
-    font-size: 240px;
+    font-size: clamp(50px, 12vw, 240px);
     letter-spacing: 4px;
     text-align: center;
     text-shadow: 0 0 30px rgba(0,0,0,1);
@@ -198,10 +198,6 @@ body {
 /* --- RESPONSIVE --- */
 
 @media (max-width: 1024px) {
-    .hero-title {
-        font-size: 180px;
-    }
-
     .intro-section {
         padding: 80px 20px;
     }
@@ -224,10 +220,6 @@ body {
 }
 
 @media (max-width: 768px) {
-    .hero-title {
-        font-size: 140px;
-    }
-
     .intro-section {
         padding: 60px 20px;
     }
@@ -281,11 +273,6 @@ body {
         font-size: 14px;
     }
 
-    .hero-title {
-        font-size: 100px;
-        white-space: nowrap;
-    }
-
     .intro-section h2 {
         font-size: 36px;
     }
@@ -336,10 +323,6 @@ body {
 
     .logo {
         font-size: 12px;
-    }
-
-    .hero-title {
-        font-size: 60px;
     }
 
     .intro-section {

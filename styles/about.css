@@ -275,3 +275,140 @@ body {
 .theme-toggle:active {
     transform: scale(0.95);
 }
+
+/* --- RESPONSIVE --- */
+
+@media (max-width: 1024px) {
+
+    .about-top-gallery img {
+        height: 380px;
+    }
+
+    .about-title {
+        font-size: 90px;
+    }
+
+    .double-boxes {
+        gap: 40px;
+        padding: 40px 20px;
+    }
+
+    .double-boxes h3 {
+        font-size: 32px;
+    }
+
+    .footer-info-inner {
+        gap: 140px;
+    }
+}
+
+/* Väikesed ekraanid – kuni 720px */
+@media (max-width: 720px) {
+
+    .main-header {
+        padding: 14px 20px;
+    }
+
+    .nav-left {
+        gap: 14px;
+    }
+
+    .logo {
+        font-size: 16px;
+    }
+
+    /* --- Top gallery muutub 2x2 gridiks --- */
+    .about-top-gallery {
+        flex-wrap: wrap;
+    }
+
+    .about-top-gallery img {
+        width: 50%;
+        height: 300px;
+    }
+
+    /* --- Suur ABOUT title skaleerub 0.5x --- */
+    .about-title {
+        font-size: 70px;
+        transform: scale(0.5);
+        transform-origin: left top;
+    }
+
+    .about-tag {
+        font-size: 22px;
+    }
+
+    .about-desc {
+        font-size: 18px;
+        padding: 0 14px;
+        margin-top: 50px;
+    }
+
+    .about-intro h2 {
+        font-size: 40px;
+    }
+
+    .about-intro p {
+        font-size: 18px;
+        max-width: 90%;
+    }
+
+    /* Info-boxed stacked layout */
+    .double-boxes {
+        flex-direction: column;
+        gap: 30px;
+        padding: 20px;
+    }
+
+    .info-box-left,
+    .info-box-right {
+        padding: 30px;
+    }
+
+    .small-btn {
+        font-size: 16px;
+        padding: 10px 26px;
+    }
+
+    .footer-info-inner {
+        flex-direction: column;
+        gap: 40px;
+    }
+}
+
+
+/* Väga väiksed ekraanid – kuni 480px */
+@media (max-width: 480px) {
+
+    .about-top-gallery img {
+        width: 100%;
+        height: 260px;
+    }
+
+    .about-title {
+        font-size: 60px;
+        transform: scale(0.35);
+        transform-origin: left top;
+    }
+
+    .about-tag {
+        font-size: 20px;
+    }
+
+    .about-desc {
+        font-size: 17px;
+    }
+
+    .about-intro h2 {
+        font-size: 32px;
+    }
+
+    .about-intro p {
+        font-size: 17px;
+    }
+
+    .social-links a {
+        font-size: 16px;
+        padding: 8px 14px;
+    }
+}

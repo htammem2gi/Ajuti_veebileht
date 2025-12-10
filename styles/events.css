@@ -193,18 +193,18 @@ body {
     text-align: center;        
 }
 
-.footer-box {
-    width: 260px;              
+.info-box {
+    width: 260px;
 }
 
-.footer-box strong {
+.info-box strong {
     font-size: 32px;
     font-weight: 700;
     margin-bottom: 12px;
     display: block;
 }
 
-.footer-box p {
+.info-box p {
     font-size: 28px;
     line-height: 1.7;
     margin: 0;
@@ -258,39 +258,32 @@ body {
     .footer-info-inner {
         gap: 120px;
     }
+
+    .info-box {
+        width: 240px;
+    }
+
+    .info-box strong {
+        font-size: 30px;
+    }
+
+    .info-box p {
+        font-size: 26px;
+    }
 }
 
-
-/* Väiksemad ekraanid – alla 720px */
-@media (max-width: 720px) {
-
-    .main-header {
-        padding: 12px 18px;
-    }
-
-    .logo {
-        font-size: 16px;
-    }
-
-    .nav-left {
-        gap: 14px;
-    }
+@media (max-width: 768px) {
 
     .hero-title {
         font-size: 70px;
-        transform: translate(0,0) scale(0.5); 
-        top: 40px;
-        left: 40px;
     }
 
     .event-info {
-        flex-direction: column;
-        gap: 40px;
-        padding: 40px 20px;
+        padding: 40px 15px;
     }
 
     .event-item strong {
-        font-size: 22px;
+        font-size: 24px;
     }
 
     .event-item p {
@@ -299,20 +292,116 @@ body {
 
     .gallery-track {
         gap: 20px;
-        padding: 20px;
+        padding: 15px;
     }
 
     .event-gallery img {
-        width: 350px;
+        width: 320px;
     }
 
     .event-bottom-text h2 {
-        font-size: 44px;
+        font-size: 42px;
+    }
+
+    .event-bottom-text p {
+        font-size: 20px;
+    }
+
+    .footer-info-inner {
+        gap: 60px;
+    }
+
+    .info-box {
+        width: 200px;
+    }
+
+    .info-box strong {
+        font-size: 26px;
+    }
+
+    .info-box p {
+        font-size: 22px;
+    }
+}
+
+
+/* Väiksemad ekraanid – alla 720px */
+@media (max-width: 720px) {
+
+    .main-header {
+        padding: 10px 14px;
+    }
+
+    .logo {
+        font-size: 14px;
+    }
+
+    .nav-left {
+        gap: 12px;
+    }
+
+    .nav-left a {
+        font-size: 14px;
+    }
+
+    .nav-right {
+        gap: 12px;
+    }
+
+    .hero-title {
+        font-size: 50px;
+        top: 30px;
+        left: 30px;
+    }
+
+    .event-info {
+        flex-direction: column;
+        gap: 35px;
+        padding: 35px 20px;
+    }
+
+    .event-item strong {
+        font-size: 20px;
+    }
+
+    .event-item p {
+        font-size: 15px;
+    }
+
+    .gallery-track {
+        gap: 15px;
+        padding: 15px;
+    }
+
+    .event-gallery img {
+        width: 280px;
+    }
+
+    .event-bottom-text h2 {
+        font-size: 38px;
+    }
+
+    .event-bottom-text p {
+        font-size: 18px;
     }
 
     .footer-info-inner {
         flex-direction: column;
-        gap: 40px;
+        gap: 30px;
+        padding: 30px 20px;
+    }
+
+    .info-box {
+        width: 100%;
+        text-align: center;
+    }
+
+    .info-box strong {
+        font-size: 20px;
+    }
+
+    .info-box p {
+        font-size: 18px;
     }
 }
 
@@ -320,23 +409,68 @@ body {
 /* Väga väikesed ekraanid – alla 480px */
 @media (max-width: 480px) {
 
+    .main-header {
+        padding: 8px 10px;
+    }
+
+    .nav-left {
+        gap: 8px;
+    }
+
+    .nav-left a {
+        font-size: 12px;
+    }
+
+    .logo {
+        font-size: 12px;
+    }
+
+    .nav-right {
+        gap: 8px;
+    }
+
     .hero-title {
-        font-size: 55px;
-        transform: translate(0,0) scale(0.35); 
-        top: 30px;
-        left: 30px;
+        font-size: 35px;
+        top: 25px;
+        left: 25px;
         line-height: 1.1;
     }
 
+    .event-info {
+        padding: 25px 15px;
+    }
+
+    .event-item strong {
+        font-size: 18px;
+    }
+
+    .event-item p {
+        font-size: 14px;
+    }
+
+    .gallery-track {
+        gap: 10px;
+        padding: 10px;
+        flex-wrap: wrap;
+    }
+
     .event-gallery img {
-        width: 250px;
+        width: calc(50% - 10px);
     }
 
     .event-bottom-text h2 {
-        font-size: 36px;
+        font-size: 30px;
     }
 
     .event-bottom-text p {
+        font-size: 16px;
+    }
+
+    .info-box strong {
         font-size: 18px;
+    }
+
+    .info-box p {
+        font-size: 16px;
     }
 }

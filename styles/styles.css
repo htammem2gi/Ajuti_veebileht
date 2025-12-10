@@ -195,3 +195,65 @@ body {
     margin: 0;
 }
 
+/* --- RESPONSIVE --- */
+
+@media (max-width: 1024px) {
+    .hero-title {
+        font-size: 180px;
+    }
+
+    .intro-section {
+        padding: 80px 20px;
+    }
+
+    .footer-info-inner {
+        gap: 120px;
+    }
+}
+
+/* Väikesed ekraanid – alla 720px laiust */
+@media (max-width: 720px) {
+    .main-header {
+        padding: 12px 16px;
+    }
+
+    .nav-left, 
+    .nav-right {
+        gap: 12px;
+    }
+
+    .logo {
+        font-size: 16px;
+    }
+
+    .hero-title {
+        font-size: 140px;
+        transform: translate(-50%, -50%) scale(0.5); 
+        white-space: nowrap;
+    }
+
+    .intro-section h2 {
+        font-size: 40px;
+    }
+
+    .intro-section p {
+        font-size: 18px;
+    }
+
+    .footer-info-inner {
+        flex-direction: column;
+        gap: 40px;
+    }
+}
+
+/* Väga väikesed ekraanid – alla 480px laiust */
+@media (max-width: 480px) {
+    .hero-title {
+        font-size: 120px;
+        transform: translate(-50%, -50%) scale(0.35); 
+    }
+
+    .intro-section {
+        padding: 60px 16px;
+    }
+}
